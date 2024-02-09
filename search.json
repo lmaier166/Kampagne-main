@@ -1,0 +1,162 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Template",
+    "section": "",
+    "text": "0.1 Überblick\nDie Auswirkungen von Alkoholkonsum und Rauchen auf den menschlichen Körper sind von entscheidender Bedeutung für die öffentliche Gesundheit und das Wohlbefinden. In Anbetracht der weitreichenden Folgen, die diese Verhaltensweisen mit sich bringen können, ist eine gründliche Untersuchung und Analyse der relevanten Daten unerlässlich.\nDiese Dokumentation stellt meinen Prozess der Auswertung eines Datensatzes über die Auswirkungen von Alkohol und Rauchen auf den menschlichen Körper dar. Von der Datennachbereitung bis zur Erstellung aussagekräftiger Diagramme verfolgte ich einen strukturierten Ansatz, um Einblicke in die Zusammenhänge zwischen dem Konsum dieser Substanzen und den potenziellen Gesundheitsrisiken zu gewinnen.\nIn diesem Dokument werde ich meinen methodischen Ansatz erläutern und die Ergebnisse meiner Untersuchung präsentieren. Ziel ist es, ein umfassendes Verständnis der Auswirkungen von Alkohol und Rauchen auf den menschlichen Körper zu vermitteln und auf dieser Grundlage mögliche Maßnahmen zur Verbesserung der öffentlichen Gesundheit zu ermitteln.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Gesundheitsrisiken von Alkohol und Rauchen</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#datensatz",
+    "href": "index.html#datensatz",
+    "title": "Template",
+    "section": "0.2 Datensatz",
+    "text": "0.2 Datensatz\n\nDieser Datensatz wurde vom Nationalen Krankenversicherungsdienst in Korea erhoben. Alle persönlichen Informationen und sensiblen Daten wurden ausgeschlossen. Folgend werden die Angaben der Spalten Erklärt:\n\n\nsex steht für das Geschlecht der Person - männlich oder weiblich\nage:In der ursprünglichen Studie wurde das Alter in 5-Jahres-Intervalle unterteilt, d. h. 20-24 Jahre, 25-29 Jahre, …, 85+ Jahre. Diese Intervalle wurden dann in numerische Werte umgewandelt, indem die untere Grenze des Intervalls genommen wurde. (z. B. 20-24 Jahre -&gt; 20 Jahre)\nheight gibt die Größe der Person in 5-cm-Schritten an\nweight stellt das Gewicht der Person in 5kg-Schritten dar\nwaist steht für den Umfang der Taille der Person\nsight_left steht für die Sehschärfe des linken Auges der Person. Die Sehschärfe misst die Fähigkeit des Auges, Formen und Objektdetails in einer bestimmten Entfernung zu unterscheiden. Sie reicht von 0,1 bis 1,5, wobei Werte &lt;0,1 auf 0,1 verschoben werden\nsight_right steht für die Sehschärfe des rechten Auges der Person.\nhear_left misst das Gehör auf dem linken Ohr der Person, wobei 1 für ein normales und 2 für ein abnormales Gehör steht\nhear_right misst das Gehör auf dem rechten Ohr der Person mit dem gleichen Klassifizierungssystem wie hear_left.\nDer SBP misst den höchsten bei einer Person gemessenen systolischen Blutdruck in mmHg. Der systolische Blutdruck misst den Druck in den Arterien, wenn das Herz schlägt\nDer DBP misst den diastolischen Blutdruck, der von der Person selbst gemessen wird, in mmHg. Der diastolische Blutdruck misst den Druck in den Arterien, wenn das Herz zwischen den Schlägen ruht\nDer BLDS misst den Nüchternblutzucker der Person in mg/dL. Dies entspricht der Glukosekonzentration pro 100 ml Blut vor dem Verzehr einer Mahlzeit\ntot_chole misst die Gesamtkonzentration von (Ester- und Nicht-Ester-) Cholestorol in der Person, in mg/dL\nHDL_chole misst die Gesamtkonzentration von Cholestorol im HDL-Bereich (High Density Lipoprotein) der Person in mg/dL. HDL-Cholestorol, auch “gutes Cholestorol” genannt, absorbiert Cholestorol im Blut und transportiert es zurück zur Leber, die es dann aus dem Körper spült. Beachten Sie, dass höhere HDL-Cholestorol-Werte das Risiko für Herzkrankheiten senken können.\nLDL_chole misst die Gesamtkonzentration von Cholestorol im LDL-Bereich (Lipoprotein niedriger Dichte) in mg/dL. LDL-Cholestorol, auch schlechtes Cholestorol genannt, macht den größten Teil des Cholestorols im Körper aus. Hohe Werte können das Risiko für Herzkrankheiten und Schlaganfälle erhöhen.\ntriglyceride misst die Gesamtkonzentration von Triglyceriden im Blut einer Person in mg/dL. Triglyceride sind eine Art von Lipiden (d. h. Fett), die in unserem Blut zirkulieren und in der Regel aus Lebensmitteln stammen, die wir verzehren\nhemoglobin misst die Gesamtkonzentration von Hämoglobin im Blut einer Person in g/dL. Hämoglobin ist ein Protein in unseren roten Blutkörperchen, das Sauerstoff transportiert\nurine_protein misst die Menge an Eiweiß im Urin einer Person. Ein hoher Eiweißgehalt im Urin, auch Proteinurie genannt, kann ein Anzeichen für viele Gesundheitsprobleme sein, z. B. Herzversagen und Nierenprobleme. source. Es ist unklar, was die Kodierungen der Bezeichnungen (1(-), 2(+/-), 3(+1), 4(+2), 5(+3), 6(+4)) für diese Variable bedeuten, obwohl man vermuten könnte, dass sie sich auf die Anzahl der Standardabweichungen vom Mittelwert beziehen, die der Wert in der Merkmalsverteilung aufweist\nserum_creatine misst die Konzentration von Kreatinin im Serum (das sich im Blut befindet) einer Person in mg/dL. Kreatinin ist ein Abfallprodukt von Kreatin, das hauptsächlich zur Energieversorgung der Muskeln produziert wird. Normalerweise wird es von den Nieren vollständig abgebaut; wenn die Nierenfunktion gestört ist, steigt die Kreatininkonzentration an. Normale Werte liegen bei etwa 0,8-2,7 mg/dL\nSGOT_AST misst den SGO (Glutamat-Oxaloacetat-Transaminase)-AST (Aspartat-Transaminase)-Wert in IU/L. Dies sind Werte in Bluttests, die die Leistung von Leber, Herz und anderen Organen messen. Insbesondere wenn diese Organe geschädigt sind, steigt der Wert an. Normale Werte liegen bei 0-40 IU/L\nSGOT_ALT misst den SGOT (Glutamat-Oxaloacetat-Transaminase) - ALT (Alanin-Transaminase) Wert in IU/L, das sind Werte in Bluttests, die die Leberleistung quantifizieren. Insbesondere, wenn diese geschädigt ist, steigt der Wert an. Normale Werte liegen bei 0-40 IU/L\ngamma_GTP misst den Gamma-GTP (y-Glutamyltranspeptidase)-Wert in IU/L, also Werte, die die Leberfunktion im Gallendiktat quantifizieren. Normale Werte liegen bei Männern bei 11-63 IU/L und bei Frauen bei 8-35 IU/L\nSMK_STAT_TYPE_CD misst den Raucherstatus der Person, wobei 1 bedeutet, dass sie nie geraucht hat, 2 bedeutet, dass sie geraucht hat, aber aufgehört hat, und 3 bedeutet, dass sie noch raucht\nDRK_YN ist ein Kennzeichen, das angibt, ob die Person ein Trinker ist oder nicht\n\n\nZuerst wurden die benötigten Libaries importiert, in diesem Fall Pandas und Altair sowie der Datensatz geladen für die darauffolgende Analyse.\n\n\n&lt;code&gt;\n    import pandas as pd\n    import altair as alt\n\n    # Pfadeinstellung für lokale Excel-Datei\n    lokaler_pfad = '/Users/leamaier/Desktop/Studium/WI/6. Semester/Data Storytelling/Aufklärungskampagne/smoking_driking_dataset_Ver01.csv'\n\n    # DataFrame aus der CSV-Datei erstellen\n    init_df = pd.read_csv('smoking_driking_dataset_Ver01.csv') \n&lt;/code&gt;\n\n\nDa der Datensatz 991347 Einträge hat, habe ich ihn verkleinert für eine bessere Laufzeit. Dies habe ich gemacht, indem in ersten Schritt die Spalten Gruppiert habe nach Alter und anschließend in einem leeren DataFrame 300 Einträge jedes Alters gespeichert habe.\n\n\n&lt;code&gt;\n    # Gruppiere den DataFrame nach der 'age'-Spalte\n    grouped_df = init_df.groupby('age')\n\n    # Erstelle eine leere DataFrame, um die begrenzten Einträge zu speichern\n    df = pd.DataFrame()\n\n    # Iteriere durch jede Gruppe und füge die ersten 300 Einträge hinzu\n    for _, group in grouped_df:\n        df = df._append(group.head(300))\n&lt;/code&gt;",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Gesundheitsrisiken von Alkohol und Rauchen</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#hinzufügen-verhältnissenkombinationen-von-merkmalen",
+    "href": "index.html#hinzufügen-verhältnissenkombinationen-von-merkmalen",
+    "title": "Template",
+    "section": "0.3 Hinzufügen Verhältnissen/Kombinationen von Merkmalen",
+    "text": "0.3 Hinzufügen Verhältnissen/Kombinationen von Merkmalen\n\nEine Möglichkeit, Merkmale im Datensatz zu kombinieren, besteht darin, Verhältnisse oder Kombinationen von Merkmalen einzuführen.\nIch habe einige Hilfsfunktionen eingeführt, anhand derer ich die Verhältnisse oder Formeln berechnen kann und anschließend habe ich sie dem Datensatz hinzugefügt:\n\n\n&lt;code&gt;\n    def get_bmi(row):\n        weight = row[\"weight\"]\n        height_cm = row[\"height\"]\n        height_meter = height_cm / 100\n        bmi = weight / (height_meter ** 2)\n        return bmi\n\n    def get_blood_pressure_ratio(row):\n        sbp = row[\"sbp\"]\n        dbp = row[\"dbp\"]\n        return sbp / dbp\n\n    def get_hdl_cholesterol_ratio(row):\n        hdl_chole = row[\"hdl_chole\"]\n        total_chole = row[\"tot_chole\"]\n        return hdl_chole / total_chole\n\n    def get_ldl_cholesterol_ratio(row):\n        ldl_chole = row[\"ldl_chole\"]\n        total_chole = row[\"tot_chole\"]\n        return ldl_chole / total_chole\n\n    df[\"bmi\"] = df.apply(get_bmi, axis=1)\n    df[\"bp_ratio\"] = df.apply(get_blood_pressure_ratio, axis=1)\n    df[\"hdl_ratio\"] = df.apply(get_hdl_cholesterol_ratio, axis=1)\n    df[\"ldl_ratio\"] = df.apply(get_ldl_cholesterol_ratio, axis=1)\n&lt;/code&gt;",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Gesundheitsrisiken von Alkohol und Rauchen</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#hinzufügen-normalen-kodierungen-für-merkmale",
+    "href": "index.html#hinzufügen-normalen-kodierungen-für-merkmale",
+    "title": "Template",
+    "section": "0.4 Hinzufügen “normalen” Kodierungen für Merkmale",
+    "text": "0.4 Hinzufügen “normalen” Kodierungen für Merkmale\n\nViele der Spaltenbeschreibungen aus der Originalquelle führen “normale” Bereiche für viele der numerischen Variablen auf. Ein natürliches Merkmal, das ich zu den Daten hinzufügen kann, waren also Markierungen, die anzeigen, ob die Werte der Daten in diese normalen Bereiche fallen.\n\n\n&lt;code&gt;\n    def classify_eyesight(val):\n        if val &gt; 1: # &gt; 20/20 eyesight\n            return \"Good\"\n        elif val &gt; 0.5: # &gt; 20/40 eyesight\n            return \"Average\"\n        elif val &gt; 0.25: # &gt; 20/80 eyesight\n            return \"Poor\"\n        else:\n            return \"Very Poor\"\n\n    def classify_blood_pressure(row):\n        sbp = row[\"sbp\"]\n        dbp = row[\"dbp\"]\n        if sbp &lt; 120 and dbp &lt; 80:\n            return \"Normal\"\n        elif sbp &lt; 130 and dbp &lt; 80:\n            return \"Elevated\"\n        elif sbp &lt; 140 and dbp &lt; 90:\n            return \"Hypertension Stage 1\"\n        elif sbp &lt; 180 and dbp &lt; 120:\n            return \"Hypertension Stage 2\"\n        else:\n            return \"Hypertensive Crisis\"\n\n    def classify_blood_glucose(row):\n        blood_glucose = row[\"blds\"]\n        if blood_glucose &lt; 100:\n            return \"Normal\"\n        elif blood_glucose &lt; 125:\n            return \"Pre-Diabetes\"\n        else:\n            return \"Diabetes\"\n\n    def classify_serum_creatinine(row):\n        serum_creatinine = row[\"serum_creatinine\"]\n        if serum_creatinine &lt; 2.7:\n            return \"Normal\"\n        else:\n            return \"Abnormal\"\n\n    def classify_sgot_ast(row):\n        sgot_ast = row[\"sgot_ast\"]\n        if sgot_ast &lt; 40:\n            return \"Normal\"\n        else:\n            return \"Abnormal\"\n\n    def classify_sgot_alt(row):\n        sgot_alt = row[\"sgot_alt\"]\n        if sgot_alt &lt; 40:\n            return \"Normal\"\n        else:\n            return \"Abnormal\"\n\n    def classify_gamma_gtp(row):\n        gamma_gtp = row[\"gamma_gtp\"]\n        sex = row[\"sex\"]\n        if sex == \"Male\":\n            if gamma_gtp &gt;= 11 and gamma_gtp &lt;= 63:\n                return \"Normal\"\n            else:\n                return \"Abnormal\"\n        else:\n            if gamma_gtp &gt;= 8 and gamma_gtp &lt;= 35:\n                return \"Normal\"\n            else:\n                return \"Abnormal\"\n\n\n        # Klassen für eyesight\n        df[\"sight_left_class\"] = df[\"sight_left\"].apply(classify_eyesight)\n        df[\"sight_right_class\"] = df[\"sight_right\"].apply(classify_eyesight)\n\n        # Klassen für Blutdruck, Blutzucker, Serumkreatinin und Leberwerte\n        df[\"blood_pressure_class\"] = df.apply(classify_blood_pressure, axis=1)\n        df[\"blood_glucose_class\"] = df.apply(classify_blood_glucose, axis=1)\n        df[\"serum_creatinine_class\"] = df.apply(classify_serum_creatinine, axis=1)\n        df[\"sgot_ast_class\"] = df.apply(classify_sgot_ast, axis=1)\n        df[\"sgot_alt_class\"] = df.apply(classify_sgot_alt, axis=1)\n        df[\"gamma_gtp_class\"] = df.apply(classify_gamma_gtp, axis=1)\n\n&lt;/code&gt;",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Gesundheitsrisiken von Alkohol und Rauchen</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#antwortvariablen-umbenennen",
+    "href": "index.html#antwortvariablen-umbenennen",
+    "title": "Template",
+    "section": "0.5 Antwortvariablen umbenennen",
+    "text": "0.5 Antwortvariablen umbenennen\n\nUm die Antwortvariablen anschaulicher zu machen, werde ich hier die Werte umbenennen:\n\n\n&lt;code&gt;\n    response_feature_drinking = 'drk_yn'\n    response_feature_smoking = 'smk_stat_type_cd'\n\n    smoking_values_dict = {\n        1: 'Never Smoked',\n        2: 'Smoked But Quit',\n        3: 'Is Smoking'\n    }\n\n    for k, v in smoking_values_dict.items():\n        df.loc[df[response_feature_smoking] == k, response_feature_smoking] = v\n\n    drinking_values_dict = {\n        \"Y\": 'Drinker',\n        \"N\": \"Non-Drinker\"\n    }\n\n    for k, v in drinking_values_dict.items():\n        df.loc[df[response_feature_drinking] == k, response_feature_drinking] = v\n&lt;/code&gt;",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Gesundheitsrisiken von Alkohol und Rauchen</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#getrennte-kategorischenumerische-erklärendeantwortende-merkmale",
+    "href": "index.html#getrennte-kategorischenumerische-erklärendeantwortende-merkmale",
+    "title": "Template",
+    "section": "0.6 Getrennte kategorische/numerische + erklärende/antwortende Merkmale",
+    "text": "0.6 Getrennte kategorische/numerische + erklärende/antwortende Merkmale\n\nFür die künftigen Schritte will ich die kategorischen und numerischen Merkmale sowie die erklärenden und antwortenden Merkmale explizit auflisten.\n\n\n&lt;code&gt;\n    categorical_features = ['hear_left', 'hear_right',\n                    'sex', 'urine_protein', 'drk_yn', 'smk_stat_type_cd',\n                   'sight_left_class', 'sight_right_class',\n                   'blood_pressure_class', 'blood_glucose_class', 'serum_creatinine_class',\n                   'sgot_ast_class', 'sgot_alt_class', 'gamma_stp_class']\n\n    numeric_features = ['age', 'height', 'weight', 'waistline', 'sight_left',\n        'sight_right', 'sbp', 'dbp', 'blds',\n        'tot_chole', 'hdl_chole', 'ldl_chole', 'triglyceride', 'hemoglobin',\n        'serum_creatinine', 'sgot_ast', 'sgot_alt',\n        'gamma_gtp', 'bp_ratio', 'hdl_ratio', 'ldl_ratio', 'bmi']\n\n    explanatory_features = set(categorical_features + numeric_features).difference(set([response_feature_drinking, response_feature_smoking]))\n&lt;/code&gt;",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Gesundheitsrisiken von Alkohol und Rauchen</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#rauchgewohnheiten",
+    "href": "index.html#rauchgewohnheiten",
+    "title": "Template",
+    "section": "0.7 Rauchgewohnheiten",
+    "text": "0.7 Rauchgewohnheiten\n\nUm einen ersten Überblick des Datensatzes zu bekommen, was die Rauchgewohnheiten angeht habe ich ein Balkendiagramm erstellt. Dieses ist unter den Geschlechtern aufgeteilt und zeigt die Häufigkeit der jeweiligen Merkmalsausprägungen. Zuerst zeige ich den code den ich dazu geschrieben habe und anschließend das Diagramm was hierbei herauskam:\n\n\n&lt;code&gt;\n\n    chart = alt.Chart(df).mark_bar(\n        cornerRadiusTopLeft=3,\n        cornerRadiusTopRight=3\n    ).encode(\n        x=alt.X('sex:O', sort='-y', axis=alt.Axis(title=\"Sex\", titleAnchor=\"start\", labelAngle=0)),\n        y=alt.Y('count():Q', axis=alt.Axis(title=\"Count\", titleAnchor=\"end\", grid=False)),\n        color=alt.Color('smk_stat_type_cd:N', legend=alt.Legend(title=\"Rauchkonsum\"))\n    ).properties(\n        title='Rauchkonsum nach Geschlecht',\n        width=400,\n        height=300\n    ).configure_title(\n        fontSize=20,\n        font='Arial',\n        anchor='start',\n        color='black'\n    ).configure_axis(\n        labelFontSize=14,\n        titleFontSize=16\n    ).configure_view(strokeWidth=0)\n\n    chart\n&lt;/code&gt;\n\n\n\n\nRauchkonsum der Geschlechter\n\n\n\nZu erkennen in diesem Diagramm ist, das bei den Männern die Ausprägungen relativ gleichverteilt sind. Jedoch bei den Frauen die Mehrheit noch nie geraucht hat.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Gesundheitsrisiken von Alkohol und Rauchen</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#alkoholkonsum",
+    "href": "index.html#alkoholkonsum",
+    "title": "Template",
+    "section": "0.8 Alkoholkonsum",
+    "text": "0.8 Alkoholkonsum\n\nUm genauso einen besseren Einblick in die Gewohnheiten zu bekommen was den Alkohol betrifft, habe ich zwei Pie Charts erstellt jeweils eins für die Geschlechter. Hier bin ich so vorgegangen das ich das DataFrame gefiltert habe je nach dem Geschlecht und es dann in einem PieChart abbilde bezogen auf den Alkoholkonsum.\n\n\n&lt;code&gt;\n    #Alkoholkonsum Männer\n    df_male = df[df['sex'] == 'Male']\n\n    chart = alt.Chart(df_male).mark_arc().encode(\n        theta='count()',\n        color=alt.Color('drk_yn:N', legend=alt.Legend(title=\"Alkoholkonsum\"))\n    ).properties(\n        title='Alkoholkonsum Männer',\n        width=400,\n        height=300\n    ).configure_title(\n        fontSize=20,\n        font='Arial',\n        anchor='start',\n        color='black'\n    ).configure_axis(\n        labelFontSize=14,\n        titleFontSize=16\n    ).configure_view(strokeWidth=0)\n\n    chart\n\n    #Alkoholkonsum Frauen\n    df_female = df[df['sex'] == 'Female']\n\n    chart = alt.Chart(df_female).mark_arc().encode(\n        theta='count()',\n        color=alt.Color('drk_yn:N', legend=alt.Legend(title=\"Alkoholkonsum Frauen\"))\n    ).properties(\n        title='Alkoholkonsum Frauen',\n        width=400,\n        height=300\n    ).configure_title(\n        fontSize=20,\n        font='Arial',\n        anchor='start',\n        color='black'\n    ).configure_axis(\n        labelFontSize=14,\n        titleFontSize=16\n    ).configure_view(strokeWidth=0)\n\n    chart\n&lt;/code&gt;\n\n \n\nDaraus konnte ich dann erkennen, das auch hier der Konsum der Männer höher als der der Frauen ist, jedoch nicht ganz so einprägend wie bei dem Rauchkonsum.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Gesundheitsrisiken von Alkohol und Rauchen</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#zusammenhänge",
+    "href": "index.html#zusammenhänge",
+    "title": "Template",
+    "section": "0.9 Zusammenhänge",
+    "text": "0.9 Zusammenhänge\n\nUm die Zusammenhänge der beiden Konsume festzustellen habe ich eine Heatmap erstellt. Hier wollte ich erfahren ob ein Konsum einen Einfluss auf den anderen hat.\n\n\n\n\nZusammenhang der Gewohnheiten\n\n\n\nIn der Heatmap ist zu deuten, dass es einen starken Zusammenhang gibt zwischen den Ausprägungen nicht rauchen und keinen Alkohol konsumieren. Das bedeutet das es wahrscheinlich ist dass wenn eine Person in der Studie noch nie geraucht hat sie größtenteils auch keinen Alkohol trinkt.\n\n\nEs ist noch ein geringer Zusammenhang zu erkennen zwischen noch nie geraucht aber Alkoholkonsument. Daraus kann man schließen das es wahrscheinlicher ist das jemand Alkohol trinkt auch wenn noch nie graucht worden ist.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Gesundheitsrisiken von Alkohol und Rauchen</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#bludruck",
+    "href": "index.html#bludruck",
+    "title": "Template",
+    "section": "0.10 Bludruck",
+    "text": "0.10 Bludruck\n\nDer Blutdruck ist einer vieler gesundheitlicher Merkmale die von den Gewohnheiten beeinflusst werden können, deshalb habe ich mich für ihn innerhalb dieser Studie interessiert. Vorab habe ich ja die neue Klasse erstellt so kann es in fünf verschiedene eingeteilt werden von Normal bis Hypertensive Krise. Vorab habe ich den Datensatz gefiltert damit nur noch die Personen in betracht gezogen werden die beide Gewohnheiten umsetzte.\n\n\n&lt;code&gt;\n    # DataFrame filtern\n    filtered_df = df[(df['drk_yn'] == 'Drinker') & (df['smk_stat_type_cd'] == 'Is Smoking')]\n\n    average_blood_pressure = filtered_df.groupby('blood_pressure_class').agg({\n        'sbp': 'mean',\n        'dbp': 'mean'\n    }).reset_index()\n\n    # Erstellen Sie das Balkendiagramm\n    chart_average_blood_pressure = alt.Chart(average_blood_pressure).mark_bar().encode(\n        x='blood_pressure_class:N',\n        y=alt.Y('mean(sbp):Q', title='Durchschnittlicher systolischer Blutdruck'),\n        color='blood_pressure_class:N'\n    ).properties(\n        title='Durchschnittlicher Blutdruck',\n        width=500,\n        height=300\n    )\n\n    chart_average_blood_pressure\n&lt;/code&gt;\n\n\n\n\nDurchscnittlicher Blutdruck\n\n\n\nIn dieser Abbildung ist zu erkennen, dass die Blutdruck Klasse Hypertensive Krise am ausgeprägtesten ist und der Normale Blutdruck am geringsten und Personen die rauchen und Alkohol konsumieren. Unterhalb werden nochmal die Klassen genauer beschrieben:\n\n\nNormal: sbp &lt; 120 and dbp &lt; 80\nElevated: sbp &lt; 130 and dbp &lt; 80\nHypertension Stage 1: sbp &lt; 140 and dbp &lt; 90\nHypertension Stage 2: sbp &lt; 180 and dbp &lt; 120\nHypertensive Crisis: alles darüber",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Gesundheitsrisiken von Alkohol und Rauchen</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#blutzucker",
+    "href": "index.html#blutzucker",
+    "title": "Template",
+    "section": "0.11 Blutzucker",
+    "text": "0.11 Blutzucker\n\nDa der Blutzucker ein Indiz für Diabetes sein kann und dieser auch stark von dem Konsum von Zigaretten oder Alkohol beeinflusst werden kann, habe ich mich dafür interessiert wie er sich über die Lebensjahre entwickelt von Personen die beides zu tun Pflegen. Deshalb entschied ich mich für ein Line Chart, indem in dann mit einer Linie kennzeichne wo der normale Blutzuckerspiegel liegen sollte.\n\n\n&lt;code&gt;\n\n    # Durchschnittlichen Blutdzucker pro Alter berechnen\n    average_blds = filtered_df.groupby(\"age\")[\"blds\"].mean().reset_index()\n\n    # Line Chart erstellen\n    line_chart = alt.Chart(average_blds).mark_line().encode(\n        x=alt.X(\"age:O\", title=\"Alter\"),\n        y=alt.Y(\"blds:Q\", \n                title=\"Durchschnittlicher Blutzucker\", \n                scale=alt.Scale(domain=[90, 120])\n                ),\n        tooltip=[\"age:O\", \"blds:Q\"],\n    ).properties(width=700, height=400)\n\n    # Horizontale Linie bei y-Wert 100 hinzufügen\n    rule_line = alt.Chart(pd.DataFrame({'y': [100]})).mark_rule(color='red', strokeWidth=2).encode(y='y:Q')\n\n    # Diagramm anzeigen\n    line_chart + rule_line\n&lt;/code&gt;\n\n\n\n\nDurchscnittlicher Blutzucker\n\n\n\nUnterhalb der Roten Linie zeigt sich ein Blutzucker der sich im gesunden Bereich befindet. Ab dem 40 Lebensjahr sieht man einen deutlichen Anstieg des Durchschnittlichen Spiegels.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Gesundheitsrisiken von Alkohol und Rauchen</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#leberfunktion",
+    "href": "index.html#leberfunktion",
+    "title": "Template",
+    "section": "0.12 Leberfunktion",
+    "text": "0.12 Leberfunktion\n\nEin weiteres gesundheitliches Merkmal für dessen Auswirkung von Alokol und den Konsum von Zigaretten ich mich interessiert habe ist der der Leberfunktion. in dem DataFrame gibt die Spalte gamma_gtp_class die ich erstellt habe an ob die Funktion der Gallenwege Normal oder Abnormal ist. Auch hier betrachte ich Personen die beide Gewohnheiten umsetzten um das größte Ausmaß sehen zu können. Dies wollte ich anhand eines Balkendiagramms verdeutlichen:\n\n\n&lt;code&gt;\n    average_gamma_gtp = filtered_df.groupby('gamma_gtp_class').agg({\n        'gamma_gtp': 'mean'\n    }).reset_index()\n\n    # Erstellen Sie das Balkendiagramm für den durchschnittlichen Leberfunktion\n    chart_average_blood_glucose = alt.Chart(average_gamma_gtp).mark_bar().encode(\n        x='gamma_gtp_class:N',\n        y=alt.Y('mean(gamma_gtp):Q', title='Durchschnittliche Leberfunktion'),\n        color='gamma_gtp_class:N'\n    ).properties(\n        title='Durchschnittliche Leberfunktion',\n        width=400,\n        height=300\n    )\n\n    chart_average_blood_glucose\n&lt;/code&gt;\n\n\n\n\nDurchscnittliche Leberfunktion\n\n\n\nHier ist die Auswikungen der beiden Konsume auch deutlich zu erkennen, die Merheit liegt im Abnormalen Bereich. Das bedeutet das bei den meisten Personen die Leberfunktion nicht ausreichend genug ist beziehungsweise stark beeinträchtigt.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Gesundheitsrisiken von Alkohol und Rauchen</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#anregungen",
+    "href": "index.html#anregungen",
+    "title": "Template",
+    "section": "0.13 Anregungen",
+    "text": "0.13 Anregungen",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Gesundheitsrisiken von Alkohol und Rauchen</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "2  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
