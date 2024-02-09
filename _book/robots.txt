@@ -1,1 +1,1 @@
-Sitemap: https://ORGNAME.github.io/REPONAME/sitemap.xml
+Sitemap: https://dst-lm166.github.io/Kampagne/sitemap.xml
